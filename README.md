@@ -1,12 +1,14 @@
 <div align="center">
 
-# 🎯 Assignment 1: 年龄预测回归任务
+#  Assignment 1: 年龄预测回归任务
 
 [![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
 [![Deadline](https://img.shields.io/badge/Deadline-Nov%202-red.svg)](http://172.23.166.133:3000)
 [![License](https://img.shields.io/badge/License-Educational-green.svg)](LICENSE)
 
 **📅 截止日期：11月2日** | **🏆 [查看排行榜](http://101.132.193.95:3000)**
+
+**🎯实践平台** | [https://www.shuishan.net.cn/workshop/content?id=200](https://www.shuishan.net.cn/workshop/content?id=200)
 
 ---
 
