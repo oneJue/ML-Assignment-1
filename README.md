@@ -228,11 +228,11 @@ pip install -r requirements.txt
 <summary><b>📖 点击查看详细步骤</b></summary>
 
 1. 🔗 进入GitHub仓库
-2. 🏷️ 点击 [release](https://github.com/oneJue/ML-Assignment-1/releases/tag/v17) 标签
+2. 🏷️ 点击 [release](https://github.com/oneJue/ML-Assignment-1/releases/tag/v16) 标签
 3. ⬇️ 下载对应系统的文件：
-   - 🐧 **Linux**: [evaluate-linux](https://github.com/oneJue/ML-Assignment-1/releases/download/v17/evaluate-linux)
-   - 🍎 **macOS**: [evaluate-macos](https://github.com/oneJue/ML-Assignment-1/releases/download/v17/evaluate-macos)
-   - 🪟 **Windows**: [evaluate-win.exe](https://github.com/oneJue/ML-Assignment-1/releases/download/v17/evaluate-win.exe)
+   - 🐧 **Linux**: [evaluate-linux](https://github.com/oneJue/ML-Assignment-1/releases/download/v16/evaluate-linux)
+   - 🍎 **macOS**: [evaluate-macos](https://github.com/oneJue/ML-Assignment-1/releases/download/v16/evaluate-macos)
+   - 🪟 **Windows**: [evaluate-win.exe](https://github.com/oneJue/ML-Assignment-1/releases/download/v16/evaluate-win.exe)
 
 </details>
 
