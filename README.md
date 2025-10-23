@@ -172,23 +172,35 @@ class Model:
 
 ### 🚀 2. `solution.py` - 推理接口
 
-```python
-import pandas as pd
-import numpy as np
-from model import Model
-
+```
 class Solution:        
-    def forward(self, sample: dict) -> dict:
-        """
+    def forward(self, sample: Dict[str, Any]) -> Dict[str, float]:
+        """模型推理接口，接收单条样本数据并返回预测结果
+        
         Args:
-            sample: 一行数据的字典(包括ID列,不包含age列)
+            sample: 单条样本数据字典，包含ID列及特征列（不含age列）
+                示例: {'id': 666336, 'job': 'blue-collar', 'marital': 'married', 
+                       'education': 'secondary', 'default': 'no', 'balance': 3595,
+                       'housing': 'no', 'loan': 'yes', 'contact': 'unknown', 
+                       'day': 3, 'month': 'jul', 'duration': 198, 'campaign': 2,
+                       'pdays': -1, 'previous': 0, 'poutcome': 'unknown'}
+        
         Returns:
-            {'prediction': float}
+            包含预测结果的字典，格式为: {'prediction': 预测概率值}
         """
-        ## 实现你的推理逻辑
+        # 1. 特征处理：根据模型要求对样本特征进行转换（如编码、归一化等）
+        # 示例：可将字典转换为DataFrame便于处理
+        # feature_df = pd.DataFrame([sample])
+        
+        # 2. 模型加载与推理：使用加载的模型对处理后的特征进行预测
+        # 示例：model = Model()  # 假设Model类有加载和预测方法
+        # prediction = model.predict(feature_df)
+        
+        # 3. 结果处理：确保返回值为float类型
+        prediction = 0.0  # 此处替换为实际预测逻辑
+        
         return {'prediction': float(prediction)}
 ```
-
 ---
 
 ## ⚙️ 环境要求
