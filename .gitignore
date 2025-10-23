@@ -1,0 +1,43 @@
+# 测试数据文件（不应公开）
+test.csv
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 模型参数文件（如果包含训练好的参数）
+model_params.pkl
+
+# PyInstaller相关
+build/
+dist/
+*.spec
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 临时文件
+*.tmp
+*.bak
