@@ -159,6 +159,7 @@ jobs:
                     --hidden-import pandas \
                     --hidden-import numpy \
                     --hidden-import requests \
+                    --hidden-import shap \
                     evaluate.py
 
     - name: Build with PyInstaller (macOS)
@@ -170,6 +171,7 @@ jobs:
                     --hidden-import pandas \
                     --hidden-import numpy \
                     --hidden-import requests \
+                    --hidden-import shap \
                     evaluate.py
 
     - name: Build with PyInstaller (Windows)
@@ -181,6 +183,7 @@ jobs:
                     --hidden-import pandas `
                     --hidden-import numpy `
                     --hidden-import requests `
+                    --hidden-import shap `
                     evaluate.py
 
     - name: Cleanup source files
