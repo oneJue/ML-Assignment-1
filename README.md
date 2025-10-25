@@ -216,6 +216,8 @@ class Solution:
 **📦 依赖安装**:
 
 ```bash
+conda create -n ML python=3.8
+conda activate ML
 pip install -r requirements.txt
 ```
 
